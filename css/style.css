@@ -71,9 +71,10 @@
 .card .card-body {
   padding: 16px;
 }
+
 /* footer */
 .footer {
-  background: black
+  background: white;
   position: fixed;
   width: 100%;
   z-index: 2;
