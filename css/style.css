@@ -95,3 +95,18 @@
   display: flex;
   gap: 100px;
 }
+.f_cardwrap {
+  display: flex;
+  /* gap: 15px; */
+  justify-content: space-between;
+}
+.f_card {
+  width: 350px; /* 원래이미지를 조절가능 */
+  background: white;
+  /* box-shadow:  0 0 20px skyblue;      */
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 3); */ /* 그림자 */
+  /* transition: 0.3s; */
+}
+.f_card .f_card-body {
+  padding: 16px;
+}
