@@ -42,6 +42,33 @@
 
 .cont01 {
   height: 300px;
+  justify-content: space-between;
+}
+.cardwrap {
+  display: flex;
+  /* gap: 15px; */
+  justify-content: space-between;
+}
+.card {
+  width: 350px; /* 원래이미지를 조절가능 */
+  background: white;
+  /* box-shadow:  0 0 20px skyblue;      */
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 3); */ /* 그림자 */
+  transition: 0.3s;
+}
+.card .card-body {
+  padding: 16px;
+}
+.card .card-body p {
+}
+.card .card-body h3 {
 }
 
+.card:hover {
+  transform: translate(0px, -10px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 3); /*그림자 */
+}
+.card .card-body {
+  padding: 16px;
+}
 /* footer */
