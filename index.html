@@ -4,41 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      /* 보고있는 브라우저 만큼 */
-      html,
-      body {
-        height: 100%;
-      }
-      /* 보고있는 브라우저의 2배 */
-
-      body {
-        height: 200%;
-        background: gray;
-      }
-
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .box {
-        width: 200px;
-        height: 200px;
-        background: pink;
-      }
-      .top {
-        width: 50px;
-        height: 50px;
-        background: skyblue;
-        border-radius: 25px;
-        position: fixed;
-        right: 100px;
-      }
-    </style>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="box">1</div>
-    <div class="top">top</div>
+    <div class="header">
+      <div class="container wrap">
+        <h1>
+          <a href="#"><img src="img/logo.png" alt="넷마블재단" /></a>
+        </h1>
+        <nav class="menuWrap">
+          <ul>
+            <li><a href="#" class="navMenu">재단소개1</a></li>
+            <li><a href="#" class="navMenu">재단활동</a></li>
+            <li><a href="#" class="navMenu">재단소식</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="visual">
+      <div class="container">
+        <h2 class="title">게임아카데미</h2>
+        <h2 class="sub">미래의 꿈 게임에 담다</h2>
+      </div>
+    </div>
+    <div class="container cont01"></div>
+    <div class="footer"></div>
   </body>
 </html>
