@@ -72,3 +72,26 @@
   padding: 16px;
 }
 /* footer */
+.footer {
+  background: black
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.footer .wrap {
+  /* background: skyblue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 76px;
+}
+
+.footer h1 img {
+  width: 165px;
+}
+
+.footer .menuWrap ul {
+  display: flex;
+  gap: 100px;
+}
