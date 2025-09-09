@@ -83,6 +83,34 @@
   bottom: 250px;
   z-index: 999;
 }
+/* section 01 */
+.sec01 {
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sec01 p {
+  align-self: flex-end;
+}
+.sec01 .h4 {
+  font-size: 44px;
+}
+.sec01 .p {
+  font-size: 18px;
+}
+.sec01 .h4::after {
+  content: "";
+  width: 80px;
+  height: 5px;
+  background: yellow;
+  display: block;
+  margin-top: 10px;
+}
+
+.py-3 {
+  padding: 30px 0;
+}
 /* content */
 
 .cont01 {
